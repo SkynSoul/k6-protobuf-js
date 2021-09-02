@@ -1,0 +1,10 @@
+syntax = "proto3";
+package msg;
+
+enum ProtoId {
+  ECHO_TIME = 0;
+}
+
+message EchoTime {
+  string localTime = 1;
+}
